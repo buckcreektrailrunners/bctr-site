@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(93 116 114);
+  color: rgb(251 244 236);
+}
+
+h1 {
+  font-family: "Titan One", sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+#home {
+  margin: auto;
+  line-height: 100vh;
+  height: 100vh;
+
+}
+
+.beaver {
+  transform: scaleX(-1);
+  position: absolute;
+  top: 70%;
+  width: 12%;
+  
+  -webkit-animation-duration: 10s;
+  -webkit-animation-name: slidein;
+  animation-iteration-count: infinite;
+  -moz-animation-duration: 10s;
+  -moz-animation-name: slidein;
+  animation-iteration-count: infinite;
+  -o-animation-duration: 10s;
+  -o-animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  }
+
+  @-webkit-keyframes slidein {
+    from {
+      margin-left: -10%;
+    }
+    to {
+      margin-left: 100%;
+    }
+  }
+  @-moz-keyframes slidein {
+    from {
+      margin-left: -10%;
+    }
+    to {
+      margin-left: 100%;
+    }
+  }
+  @-o-keyframes slidein {
+    from {
+      margin-left: -10%;
+    }
+    to {
+      margin-left: 100%;
+    }
+  }
+  @keyframes slidein {
+    from {
+      margin-left: -10%;
+    }
+    to {
+      margin-left: 100%;
+    }
+  }
